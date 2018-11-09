@@ -1,0 +1,176 @@
+@import "https://fonts.googleapis.com/css?family=Lobster";
+@import "https://fonts.googleapis.com/css?family=Cabin";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+.navbar {
+  background-color: #b2c7dc;
+  padding: 30px;
+	border-bottom: solid #0000002b 1px;
+}
+
+.footer {
+  background-color: #b2c7dc;
+  padding: 15px;
+	border-top: solid #0000002b 1px;
+}
+
+.footer p {
+  display: flex;
+	justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ol {
+	display: flex;
+}
+
+p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1 {
+  font-size: 70px;
+  letter-spacing: 30px;
+}
+
+h3 {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.abouteMe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 5% 30%;
+  line-height: 30px;
+}
+
+.arrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 10px;
+}
+
+@media (max-width: 1480px) {
+  .arrow {
+    display: none;
+  }
+  .abouteMe {
+    margin: 15% 15%;
+  }
+  .line {
+    margin: 35% 0% !important;
+  }
+}
+
+.arrowRight {
+  margin-top: 25px;
+  transform: rotate(90deg);
+}
+
+.arrowLeft {
+  margin-top: 25px;
+  transform: rotate(270deg);
+}
+
+.contactMe {
+  display: flex;
+	text-align: center;
+	align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 20%;
+}
+
+.mailToMe {
+	font-size: 40px;
+	letter-spacing: 10px;
+	line-height: 50px;
+	text-decoration: underline;
+}
+
+.projectLink {
+	text-decoration: underline;
+}
+
+.profilePic {
+  display: flex;
+	text-align: center;
+	justify-content: center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.contactText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.paperplane {
+	height: 100px;
+	width: 100px;
+}
+
+.projectsSection {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 5% 5%;
+	padding: 5% 5%;
+	border: solid black 1px;
+}
